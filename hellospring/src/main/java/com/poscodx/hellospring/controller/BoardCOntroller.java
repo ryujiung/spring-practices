@@ -19,7 +19,7 @@ public class BoardCOntroller {
 	
 	@ResponseBody
 	/**
-	 * 
+	 * /board/view/10
 	 */
 	@RequestMapping("/board/view/{no}")
 	public String view1(@PathVariable("no") Long no) {
