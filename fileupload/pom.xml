@@ -7,7 +7,7 @@
 		<artifactId>spring-practices</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>guestbook03</artifactId>
+	<artifactId>fileupload</artifactId>
 	<packaging>war</packaging>
 	
 	<properties>
@@ -16,9 +16,8 @@
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 		<org-springframework-version>5.3.25</org-springframework-version>
-			
 	</properties>
-	
+
 	<dependencies>
 		<!-- spring mvc -->
 		<dependency>
@@ -27,38 +26,15 @@
 			<version>${org-springframework-version}</version>
 		</dependency>
 		
-		
 		<!-- jstl -->
 		<dependency>
-			<groupId>jstl</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
-		</dependency>
-		
-		<!-- mariadb jdbc driver -->
-		<dependency>
-    		<groupId>org.mariadb.jdbc</groupId>
-    		<artifactId>mariadb-java-client</artifactId>
-    		<version>3.0.8</version>
-		</dependency>
-		
-		
-		<!-- servlet -->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>4.0.1</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet.jsp</groupId>
-			<artifactId>jsp-api</artifactId>
-			<version>2.2</version>
-			<scope>provided</scope>
-		</dependency>
+		    <groupId>jstl</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>1.2</version>
+		</dependency>				
 	</dependencies>
 
 	<build>
-		<finalName>guestbook03</finalName>
-	</build>
+		<finalName>fileupload</finalName>
+	</build>	
 </project>
