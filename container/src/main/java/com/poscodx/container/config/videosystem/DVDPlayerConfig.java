@@ -28,4 +28,5 @@ public class DVDPlayerConfig {
 	public DVDPlayer dvdPlayer02(DigitalVideoDisc dvd) {
 		return new DVDPlayer(dvd);
 	}
+	
 }
